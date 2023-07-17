@@ -1,0 +1,6 @@
+lst = [1, 3, 6, 10, 15, 21]
+counter = 0
+while counter < len(lst): 
+    squares = lst[counter] ** 2
+    counter += 1
+    print(squares)
